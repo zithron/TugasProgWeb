@@ -52,7 +52,7 @@ header {
     z-index: 100;
     left: 50%;
     transform: translateX(-50%);
-    top: 30%;
+    top: 25%;
 }
 
 .foto-profil {
@@ -94,6 +94,8 @@ header {
 
 /*SECTION 2*/
 
+
+/*
 #section2 {
     background-color: white;
     min-height: 700px;
@@ -105,7 +107,7 @@ header {
 }
 
 form {
-    max-width: 450px;
+    max-width: 500px;
     margin: 0 auto 50px;
 }
 
@@ -133,3 +135,25 @@ span {
     display: block;
     text-align: center;
 }
+*/
+
+#section3 {
+    background-color: white;
+    min-height: 700px;
+}
+
+/*
+.social-media {
+    position: relative;
+    left: 50%;
+     transform: translateX(-50%);
+    position: absolute;
+    
+}
+
+.sosmed {
+    float: left;
+    margin-right: 5%;
+    position: relative;
+}
+*/
