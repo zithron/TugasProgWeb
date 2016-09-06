@@ -1,0 +1,135 @@
+/*
+#section1{
+    position: relative;
+    background-image: url('../img/cover-image.png');
+    background-size: cover;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+*/
+
+body {
+    margin: 0 0 0 0;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+
+/*HEADER*/
+
+header {
+    background: url(../img/cover-image.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: block;
+    min-height: 700px;
+    position: relative;
+}
+
+.cover-text {
+    text-align: center;
+    position: absolute;
+    z-index: 100;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30%;
+}
+
+.foto-profil {
+    width: 30%;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, .2);
+}
+
+.text-besar {
+    color: #02b3e4;
+}
+
+.deskripsi {
+    color: white;
+}
+
+.button-atas {
+    background-color: #3498db;
+    border: none;
+    color: white;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.button-atas:hover {
+    background-color: #2980b9;
+}
+
+
+/*END OF HEADER*/
+
+
+/*SECTION 2*/
+
+#section2 {
+    background-color: white;
+    min-height: 700px;
+}
+
+.title {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+form {
+    max-width: 450px;
+    margin: 0 auto 50px;
+}
+
+input,
+textarea {
+    border: 2px solid #3498db;
+    width: 100%;
+    padding: 0;
+}
+
+.contact-info-group label {
+    width: 49%;
+    float: left;
+}
+
+.margin-form {
+    margin-right: 2%;
+}
+
+label {
+    display: block;
+}
+
+span {
+    display: block;
+    text-align: center;
+}
